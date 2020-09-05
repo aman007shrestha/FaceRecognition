@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 
-face_cascade = cv2.CascadeClassifier("HaarCascade/haarcascade_frontalface_alt2.xml")
+face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # print(BASE_DIR)
 # a = os.path.join(BASE_DIR, "HaarCascade")
